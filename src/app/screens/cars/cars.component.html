@@ -1,0 +1,70 @@
+<body>
+  <app-car-list></app-car-list>
+  <br />
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <form class="form">
+          <p class="title">Registro</p>
+          <p class="message">Ingrese los datos para ingresar un nuevo vehículo. </p>
+          <label>
+            <input required="" placeholder="" type="text" class="input" #anio>
+            <span>Año</span>
+          </label>
+          <label>
+            <input required="" placeholder="" type="text" class="input" #marca>
+            <span>Marca</span>
+          </label>
+          <label>
+            <input required="" placeholder="" type="text" class="input" #modelo>
+            <span>Modelo</span>
+          </label>
+          <label>
+            <input required="" placeholder="" type="text" class="input" #color>
+            <span>Color</span>
+          </label>
+          <button type="button" class="btn btn-outline-success" (click)="saveCar(marca.value, modelo.value, anio.value, color.value)">Agregar</button>
+        </form>
+      </div>
+      <div class="col-md-4">
+        <form class="form">
+          <p class="titleAct">Actualizar</p>
+          <p class="message">Ingrese los datos para actualizar. </p>
+          <label>
+            <input required="" placeholder="" type="text" class="input" #idUp>
+            <span>ID</span>
+          </label>
+          <label>
+            <input required="" placeholder="" type="text" class="input" #anioUp>
+            <span>Año</span>
+          </label>
+          <label>
+            <input required="" placeholder="" type="text" class="input" #marcaUp>
+            <span>Marca</span>
+          </label>
+          <label>
+            <input required="" placeholder="" type="text" class="input" #modeloUp>
+            <span>Modelo</span>
+          </label>
+          <label>
+            <input required="" placeholder="" type="text" class="input" #colorUp>
+            <span>Color</span>
+          </label>
+          <button type="button" class="btn btn-outline-warning" (click)="upDateCar(idUp.value, marcaUp.value, modeloUp.value, anioUp.value, colorUp.value)">Actualizar</button>
+        </form>
+      </div>
+      <div class="col-md-4">
+        <form class="form">
+          <p class="titleDelete">Eliminar</p>
+          <p class="message">Ingrese el ID del auto a Eliminar. </p>
+          <label>
+            <input required="" placeholder="" type="text" class="input" #idDel>
+            <span>ID</span>
+          </label>
+          <button type="button" class="btn btn-outline-danger" (click)="suprCar(idDel.value)">Eliminar</button>
+        </form>
+      </div>
+    </div>
+  </div>
+  <br />
+</body>

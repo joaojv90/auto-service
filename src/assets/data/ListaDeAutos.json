@@ -1,0 +1,101 @@
+{
+  "autos": [
+  {
+    "id": 1,
+    "marca": "Aston Martin",
+    "modelo": "V8 Vantage",
+    "anio": 2011,
+    "color": "Crimson"
+  },
+  {
+    "id": 2,
+    "marca": "Volvo",
+    "modelo": "S40",
+    "anio": 2007,
+    "color": "Maroon"
+  },
+  {
+    "id": 3,
+    "marca": "Honda",
+    "modelo": "Insight",
+    "anio": 2012,
+    "color": "Yellow"
+  },
+  {
+    "id": 4,
+    "marca": "Maybach",
+    "modelo": "62",
+    "anio": 2010,
+    "color": "Khaki"
+  },
+  {
+    "id": 5,
+    "marca": "Dodge",
+    "modelo": "Dakota Club",
+    "anio": 1999,
+    "color": "Mauv"
+  },
+  {
+    "id": 6,
+    "marca": "GMC",
+    "modelo": "Yukon Denali",
+    "anio": 2006,
+    "color": "Yellow"
+  },
+  {
+    "id": 7,
+    "marca": "Infiniti",
+    "modelo": "QX",
+    "anio": 2010,
+    "color": "Khaki"
+  },
+  {
+    "id": 8,
+    "marca": "Porsche",
+    "modelo": "Cayman",
+    "anio": 2012,
+    "color": "Violet"
+  },
+  {
+    "id": 9,
+    "marca": "Mercedes-Benz",
+    "modelo": "500SEL",
+    "anio": 1993,
+    "color": "Goldenrod"
+  },
+  {
+    "id": 10,
+    "marca": "Chevrolet",
+    "modelo": "Sportvan G30",
+    "anio": 1994,
+    "color": "Indigo"
+  },
+  {
+    "id": 11,
+    "marca": "Chevrolet",
+    "modelo": "Spark GT",
+    "anio": "2022",
+    "color": "Blanco"
+  }],
+  "users": [
+  {
+    "user_id": "Joao2023",
+    "pass": "dpamplin0"
+  },
+  {
+    "user_id": "Juan59",
+    "pass": "bJ3$4XOq"
+  },
+  {
+    "user_id": "Pedro84",
+    "pass": "oshuard2v"
+  },
+  {
+    "user_id": "Luis78",
+    "pass": "noldridge3"
+  },
+  {
+    "user_id": "Erick420",
+    "pass": "fpantecost4"
+  }]
+}
