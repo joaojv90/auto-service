@@ -8,8 +8,8 @@ describe('Error404Component', () => {
 
   beforeEach(() => {
     TestBed.configureTestingModule({
-      declarations: [Error404Component]
-    });
+    imports: [Error404Component]
+});
     fixture = TestBed.createComponent(Error404Component);
     component = fixture.componentInstance;
     fixture.detectChanges();

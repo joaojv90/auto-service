@@ -14,23 +14,21 @@ import { PrivateComponent } from './screens/private/private.component';
 import { UsComponent } from './screens/us/us.component';
 
 @NgModule({
-  declarations: [
-    AppComponent,
-    CarListComponent,
-    NavBarComponent,
-    HomeComponent,
-    CarsComponent,
-    Error404Component,
-    LoginComponent,
-    PrivateComponent,
-    UsComponent
-  ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule,
-    HttpClientModule
-  ],
-  providers: [],
-  bootstrap: [AppComponent]
+    declarations: [AppComponent],
+    imports: [
+        BrowserModule,
+        AppRoutingModule,
+        HttpClientModule,
+        CarListComponent,
+        NavBarComponent,
+        HomeComponent,
+        CarsComponent,
+        Error404Component,
+        LoginComponent,
+        PrivateComponent,
+        UsComponent
+    ],
+    providers: [],
+    bootstrap: [AppComponent]
 })
 export class AppModule { }

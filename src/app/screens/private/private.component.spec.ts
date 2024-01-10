@@ -8,8 +8,8 @@ describe('PrivateComponent', () => {
 
   beforeEach(() => {
     TestBed.configureTestingModule({
-      declarations: [PrivateComponent]
-    });
+    imports: [PrivateComponent]
+});
     fixture = TestBed.createComponent(PrivateComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();

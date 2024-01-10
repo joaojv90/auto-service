@@ -1,11 +1,14 @@
 import { Component } from '@angular/core';
 import { Router } from '@angular/router';
 import { UsersService } from 'src/app/services/users.service';
+import { NgFor } from '@angular/common';
 
 @Component({
-  selector: 'app-private',
-  templateUrl: './private.component.html',
-  styleUrls: ['./private.component.css']
+    selector: 'app-private',
+    templateUrl: './private.component.html',
+    styleUrls: ['./private.component.css'],
+    standalone: true,
+    imports: [NgFor]
 })
 export class PrivateComponent {
 
